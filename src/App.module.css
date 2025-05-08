@@ -1,0 +1,64 @@
+.lookupDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1.5rem;
+}
+
+.lookupInput {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  height: 3.375rem;
+  width: 39.875rem;
+  color: var(--gray-100);
+  padding-left: 1rem;
+}
+
+.lookupInput::placeholder {
+  color: var(--gray-300);
+}
+
+.taskCreate {
+  color: var(--gray-100);
+  background: var(--blue-dark);
+  border: 0;
+  border-radius: 8px;
+  align-items: center;
+  height: 3.375rem;
+  width: 5.625rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  text-decoration: none;
+  margin-left: 0.5rem;
+
+  /* Caixa do "Botão" */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Separar Icone do texto */
+  gap: 0.5rem;
+
+  /* Transição do hover */
+  transition: color 0.1s, background-color 0.1s;
+}
+
+.taskCreate:hover {
+  background: var(--blue);
+}
+
+.tasksWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrappedDiv {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 46rem;
+  padding: 0;
+  margin: 0;
+}
